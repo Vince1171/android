@@ -63,7 +63,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+<!-- removed because it's java stuff
   <project path="art" name="android_art" groups="pdk" remote="halium" />
+-->
   <project path="bionic" name="android_bionic" groups="pdk" remote="mer-hybris" revision="hybris-15.1" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
 <!--
@@ -725,7 +727,9 @@
 -->
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="halium" />
+<!-- java-only repo
   <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" />
+-->
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" />
   <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="halium" />
 <!--
